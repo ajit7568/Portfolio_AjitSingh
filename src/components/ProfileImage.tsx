@@ -1,4 +1,3 @@
-
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 
@@ -9,7 +8,7 @@ const ProfileImage = () => {
         <AspectRatio ratio={1} className="bg-muted">
           <Avatar className="w-full h-full">
             <AvatarImage 
-              src="/lovable-uploads/343992c6-6da2-436e-868a-03890afea575.png" 
+              src="/images/profile.png" 
               alt="Ajit Singh" 
               className="object-cover"
             />
